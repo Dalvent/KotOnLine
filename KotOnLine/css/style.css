@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Prosto+One&display=swap%27');
+
+header .navigater {
+    display: flex;
+    justify-content: center;
+    background: #1a2d65;
+    height: 60px;
+    border-bottom-left-radius:10%;
+    border-bottom-right-radius:10%;
+}
+
+header .pre-nav {
+    display: flex;
+    justify-content:space-between;
+    padding: 1%;
+    margin-top: 1%;
+    font-size: 16px;
+    background: #0b132b;
+    color: cornsilk;
+    height: 130px;
+    align-items: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+header .pre-nav .h
+{
+    font-size: 3em;
+    margin-left: 20%; 
+}
+
+header .pre-nav .h p
+{
+    font-size: 14px;
+
+}
+
+header .pre-nav .kot
+{
+    font-size: 2em;
+    margin-right: 20%;
+    height: auto;
+    border: 5px solid white;
+}
+
+.item:first-child
+{
+    border-left: 2px solid whitesmoke;
+}
+
+.item {
+    background: #1a2d65;
+    font-size: 1em;
+    color: #fff;
+    font-size: 14px;
+    border-right: 2px solid whitesmoke;
+    padding: 5px;
+    font-weight: 800;
+    font-family: 'Prosto One', cursive;
+    width: 140px;
+    align-self: center;
+}
+
+.item:hover {
+   
+ border-bottom: 5px solid white;
+ border-radius: -40px;
+}
+
+
+header .pre-nav .info-bar {
+    display: flex;
+    justify-content:flex-end;
+    margin-left: 60%;
+}
+
+header .pre-nav .info-bar a{
+    margin-left: 15%;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.item-unique
+{
+    background: #33a333;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    margin-right: 5%;
+    padding: 10px;
+    font-style: italic;
+    font-weight: 700; 
+}
+
+.item-donat
+{
+    background: #33a333;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    margin-right: 5%;
+    padding: 10px;
+    font-style: italic;
+    font-weight: 700;    
+}
