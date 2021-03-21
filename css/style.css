@@ -1,8 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Prosto+One&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Press+Start+2P&family=Prosto+One&display=swap');
+
 
 * {
     padding: 0;
     margin: 0;
+}
+
+body {
+    background-color: black;
 }
 
 .flex-row-container {
@@ -24,8 +29,7 @@
 }
 
 header {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(37,54,110,1) 100%);
+    background: rgb(2,0,36);background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(110, 37, 82) 100%);
 }
 
 #logo,
@@ -37,40 +41,59 @@ nav {
 #logo {
     color: cornsilk;
     height: 170px;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Prosto One', cursive;
 }
 
 #site-title-text>h1 {
-    font-size: 55px;
+    font-family: 'Prosto One', cursive;
+    font-size: 35px;
+    text-shadow: 5px 0 5px #000, 0 5px 5px #000, -5px 0 5px #000, 0 -5px 5px #000;
 }
 #site-title-text>p {
     font-size: 18px;
 }
 
 nav {
-    border-top: 3px solid #0b132b;
-    border-bottom: 3px solid #0b132b;
-    background: #1a2d65;
+    border-top: 3px solid rgb(110, 37, 82);
+    border-bottom: 3px solid rgb(110, 37, 82);
+    background: rgb(25, 25, 25);
     height: 60px;
+    display: flex;
+    justify-content: center;
 }
 
 #header-cat {
-    height: auto;
     border: 5px solid white;
+    height: auto;
 }
 
 .nav-item:first-child {
-    border-left: 2px solid #0b132b;
+    border-left: 3px solid rgb(110, 37, 82);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 50px;
+}
+
+.nav-item:last-child {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 120px;
 }
 
 .nav-item {
+    background: rgb(25, 25, 25);
     color: #ffffff;
+    position: relative;
+    bottom: 10px;
     font-size: 14px;
-    border-right: 2px solid black;
-    padding: 20px 20px 20px 20px;
+    border-right: 3px solid rgb(110, 37, 82);
+    border-bottom: 3px solid rgb(110, 37, 82);
+    border-top: 3px solid rgb(110, 37, 82);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: bold;
     font-family: 'Prosto One', cursive;
-    width: 140px;
+    width: 1200px;
+    height: 75px;
     text-align: center;
     text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
 }
