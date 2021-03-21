@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Prosto+One&display=swap%27');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.flex-row-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-center-container {
+    align-items: center;
+}
+
+.flex-space-between-container {
+    justify-content:space-between;
+}
+
+.flex-column-container {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(37,54,110,1) 100%);
+}
+
+#logo,
+nav {
+    padding-left: 20%; 
+    padding-right: 20%; 
+}
+
+#logo {
+    color: cornsilk;
+    height: 170px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#site-title-text>h1 {
+    font-size: 55px;
+}
+#site-title-text>p {
+    font-size: 18px;
+}
+
+nav {
+    border-top: 3px solid #0b132b;
+    border-bottom: 3px solid #0b132b;
+    background: #1a2d65;
+    height: 60px;
+}
+
+#header-cat {
+    height: auto;
+    border: 5px solid white;
+}
+
+.nav-item:first-child {
+    border-left: 2px solid #0b132b;
+}
+
+.nav-item {
+    color: #ffffff;
+    font-size: 14px;
+    border-right: 2px solid black;
+    padding: 20px 20px 20px 20px;
+    font-weight: bold;
+    font-family: 'Prosto One', cursive;
+    width: 140px;
+    text-align: center;
+    text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
+}
+
+.nav-item:hover {
+    background: rgb(92,87,184);
+    background: radial-gradient(circle, #49a8ac 0%, rgba(26,45,101,1) 100%);
+}
